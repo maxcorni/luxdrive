@@ -1,0 +1,47 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.accueil {
+  background: url(../assets/images/luxdrive-hero-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.bg-red {
+  background-color: #F61221;
+}
+
+.bg-grey {
+  background-color: #141414;
+}
+
+.black {
+  color: #000000;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+/* Pour que le menu burger apparaisse à partir d'un écran extra-small (xs) */
+@media (max-width: 575.98px) {
+  .navbar-toggler {
+    display: block;
+  }
+  .navbar-nav {
+    display: none;
+  }
+  .offcanvas {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
